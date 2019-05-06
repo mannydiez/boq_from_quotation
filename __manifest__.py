@@ -9,9 +9,9 @@
     'website':"www.hashmicro.com",
     'author': 'HashMicro / Emmanuel Diez',
     'depends': ['job_costing_management_extension'],
-    # 'data': [
-    #     'sequence/sequence.xml',
-    # ],    
+    'data': [
+        'views/boq.xml',
+    ],    
     'installable': True,
     'application': False,
     
