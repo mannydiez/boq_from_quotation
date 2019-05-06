@@ -13,10 +13,10 @@
         </field>
     </record>
 
-    <!-- <menuitem id="menu_sale_quotations" string="Bill of Quantity"
+    <menuitem id="sale.menu_sale_quotations" name="Bill of Quantity"
                 action="sale.action_quotations" parent="sales_team.menu_sales"
-                sequence="11"/> -->
-    <record id="action_quotations" model="ir.actions.act_window">
+                sequence="11"/>
+    <!-- <record id="action_quotations" model="ir.actions.act_window">
         <field name="name">Bill of Quantity</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">sale.order</field>
@@ -36,5 +36,5 @@
             from the Quotations list to the Sales Order list.
           </p>
         </field>
-    </record>
+    </record> -->
 </odoo>	              
