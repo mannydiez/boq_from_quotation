@@ -8,7 +8,7 @@
     'description': """Change Quotation name into Bill of Quantity""",
     'website':"www.hashmicro.com",
     'author': 'HashMicro / Emmanuel Diez',
-    'depends': ['job_costing_management_extension','sale'],
+    'depends': ['job_costing_management_extension','job_estimate_margin','sale'],
     'data': [
         'views/boq.xml',
     ],    
