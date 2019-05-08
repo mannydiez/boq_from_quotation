@@ -11,6 +11,16 @@
             </xpath>
         </field>
     </record>
+    <record model="ir.ui.view" id="job_estimate_sale_count_revise_boq">
+        <field name="name">job_estimate_sale_count_revise_boq</field>
+        <field name="model">sale.estimate.job</field>
+        <field name="inherit_id" ref="job_estimate_margin.view_sale_estimate_form_job"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='sale_count']" position='attributes'>
+                <attribute name="string">BoQ</attribute>
+            </xpath>
+        </field>
+    </record>
     <record model="ir.ui.view" id="sale_order_name_revise_boq">
         <field name="name">sale_order_name_revise_boq</field>
         <field name="model">sale.order</field>
